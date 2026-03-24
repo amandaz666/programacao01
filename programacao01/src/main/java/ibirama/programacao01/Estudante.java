@@ -1,3 +1,4 @@
+package ibirama.programacao01;
 
 import java.util.Date;
 
@@ -21,7 +22,7 @@ public class Estudante {
 
     public Estudante() {
         setNome("Rafael");
-        nome = "Nobody";
+        this.nome = "Nobody";
     }
 
     private int obterIdade(Date hoje) {
