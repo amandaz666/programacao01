@@ -1,27 +1,27 @@
-package com.mycompany.gabriel;
+package ibirama.programacao01;
 
 public class Curso {
 
-    private String codigo;
     private String nome;
-    private int cargaHoraria;
-    private int duracao;
+    private String codigo;
     private String tipoDuracao;
-    private String modalidade;
-    private String status;
+    private int cargaHoraria;
+    private int duracaoTSA;
+    private String modalidadePE;
+    private String statusAI;
 
     public Curso() {}
 
     public void obterDisciplinas() {
-        System.out.println("Obtendo disciplinas do curso: " + nome);
+        System.out.println("Obter disciplinas curso: " + nome);
     }
 
     public void obterAlunosAtivos() {
-        System.out.println("Obtendo alunos ativos do curso: " + nome);
+        System.out.println("Obter alunos ativos: " + nome);
     }
 
     public void obterAlunosEgressos() {
-        System.out.println("Obtendo alunos egressos do curso: " + nome);
+        System.out.println("Obter alunos egressos: " + nome);
     }
 
     public String getCodigo() {
@@ -41,12 +41,12 @@ public class Curso {
     }
 
 
-    public int getDuracao() {
+    public int getDuracaoTSA() {
         return duracao;
     }
 
-    public void setDuracao(int _duracao) {
-        duracao = _duracao;
+    public void setDuracaoTSA(int _duracaoTSA) {
+        duracaoTSA = _duracaoTSA;
     }
 
     public String getTipoDuracao() {
@@ -65,19 +65,19 @@ public class Curso {
         cargaHorariaTotal = _cargaHorariaTotal;
     }
 
-    public String getModalidade() {
+    public String getModalidadePE() {
         return modalidade;
     }
 
-    public void setModalidade(String _modalidade) {
-        modalidade = _modalidade;
+    public void setModalidadePE(String _modalidadePE) {
+        modalidadePE = _modalidadePE;
     }
 
-    public String getStatus() {
-        return status;
+    public String getStatusAI() {
+        return statusAI;
     }
 
-    public void setStatus(String _status) {
-        status = _status;
+    public void setStatusAI(String _statusAI) {
+        statusAI = _statusAI;
     }
 }
