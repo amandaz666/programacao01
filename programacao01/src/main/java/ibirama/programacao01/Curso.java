@@ -1,6 +1,6 @@
 package ibirama.programacao01;
 
-public class Curso {
+public abstract class Curso {
 
     private String nome;
     private String codigo;
