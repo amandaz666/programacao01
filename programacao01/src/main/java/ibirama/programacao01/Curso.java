@@ -11,6 +11,7 @@ public abstract class Curso {
     private String statusAI;
 
     public Curso() {}
+    public abstract void realizarMatricula ();
 
     public void obterDisciplinas() {
         System.out.println("Obter disciplinas curso: " + nome);
