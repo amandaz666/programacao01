@@ -9,6 +9,7 @@ public abstract class Curso {
     private int duracaoTSA;
     private String modalidadePE;
     private String statusAI;
+    private List<Disciplina> disciplina = new ArrayList<Disciplina>();
 
     public Curso() {}
     public abstract void realizarMatricula ();
