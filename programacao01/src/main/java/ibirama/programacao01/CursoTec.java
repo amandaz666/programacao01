@@ -5,7 +5,15 @@ public class CursoTec extends Curso {
     private String eixoTec;
     private int cargaHoraEstagio;
 
+    @Override
+    public void realizarMatricula() {
+    
+    }
+    
     public CursoTec() {}
+    public void verificarEstagio () {
+        //verificar estágio
+    }
 
     public boolean verificarEstagioObriga() {
         return cargaHoraEstagio > 0;
